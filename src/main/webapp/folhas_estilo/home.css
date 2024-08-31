@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.25;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.blinking-text {
+    animation: blink 1s linear infinite;
+}
+
+.btn-hover:hover {
+      background-color: #760505; 
+      border-color: #760505;
+  }
+
+.rodape {
+     position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #f5f5f5; /* Cor de fundo do rodapé */
+    padding: 10px; /* Espaçamento interno do rodapé */
+    text-align: left; /* Alinhar o texto à esquerda */
+    width: 100%;
+  }
+
+  .custom-center {
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 80vh;
+}
+
+.custom-border{
+    width: 1000px;
+    height: 300px;
+}
+
+.error-mensagem {
+    display: none;
+    color: red;
+}
+
+.img{
+    width: 20%; 
+    height: auto;
+}
+
+.div-container {
+    position: relative;
+    width: 200px;
+    height: 150px;
+}
+
+.img-top {
+    position: absolute;
+     top: 40px;
+    left: 75px;
+    width: 30%;
+}
+
+
+.blinking-image {
+    animation: blink 1s infinite;
+}
+
+.campo-invalido {
+    border: 1px solid red;
+}
+.campo-com-erro {
+        border: 1px solid red !important; 
+    }
+
+
+
+
+
+
+
